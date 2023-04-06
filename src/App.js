@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Sidebar from './components/sidebar/Sidebar';
+import Notif from './components/notif/Notif';
+import Dashboard from './pages/dashboard/Dashboard.jsx';
+import WorkOrderPage from './pages/work-orderpage/WorkOrderPage';
+import Analytics from './pages/settingspage/SettingsPage.jsx';
+import Comment from './pages/registerpage/RegisterUserPage.jsx';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Sidebar>
+        <Notif />
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/work-order" element={<WorkOrderPage />} />
+            <Route path="/register-user" element={<Comment />} />
+            <Route path="/settings" element={<Analytics />} />
+          </Routes>
+      </Sidebar>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

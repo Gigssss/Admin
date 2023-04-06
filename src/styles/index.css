@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+@import '../components/sidebar/sidebar.css';
+@import '../components/notif/notif.css';
+@import '../components//table/table.css';
+@import '../components/chart/chart.css';
+
+
+@import '../pages/dashboard/Dashboard.css';
+@import '../pages/work-orderpage/work-order.css';
+@import '../pages/registerpage/register-user.css';
+@import '../pages/settingspage/settings.css';

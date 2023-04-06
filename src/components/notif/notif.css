@@ -1,0 +1,19 @@
+.icon-lonceng{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-lonceng h4{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/*untuk layar device berukuran kecil*/
+@media (max-width: 400px) {
+    .icon-lonceng h4 {
+        font-size: 20px;
+    }
+    .icon-lonceng img {
+        margin-left: -200px;
+    }
+}

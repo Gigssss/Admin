@@ -1,0 +1,150 @@
+.container-regis {
+    border: 1px solid black;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.judul-regis {
+    text-align: center;
+    margin: 50px;
+}
+.judul-regis h1 {
+    color: red;
+    font-weight: bold;
+    font-size: 60px;
+}
+.judul-regis p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-regis {
+    display: grid;
+    grid-template-columns: column;
+    margin: 0 auto;
+    width: 80%;
+}
+.colom-justify {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: 40px;
+}
+.colom-position {
+    font-size: 20px;
+    border-radius: 8px;
+}
+.colom-department {
+    font-size: 20px;
+    border-radius: 8px;
+}
+.colom-name {
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.colom-email {
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.colom-role {
+    width: 75%;
+    margin: 0 auto;
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.colom-password {
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.btn-regis {
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+}
+
+/*untuk layar device berukuran kecil*/
+@media (max-width: 400px) {
+    .container-regis {
+        width: 100%;
+        border: none;
+    }
+    .judul-regis {
+        text-align: center;
+        margin-left: 20px;
+    }
+    .judul-regis h1 {
+        color: red;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .judul-regis p {
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .form-regis {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .colom-name {
+        height: 30px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .colom-email {
+        height: 30px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .colom-role {
+        height: 30px;
+        margin-top: -30px;
+        border-radius: 8px;
+        font-size: 15px;
+        width: 80%;
+    }
+    .btn-regis {
+        height: 30px;
+        border-radius: 8px;
+        font-size: 15px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .colom-password {
+        height: 30px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .colom-position {
+        height: 30px;
+        font-size: 15px;
+        width: 47%;
+
+    }
+    .colom-department {
+        width: 47%;
+        height: 30px;
+        font-size: 15px;
+    }
+}

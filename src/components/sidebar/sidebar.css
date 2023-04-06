@@ -1,0 +1,74 @@
+.container{
+    display:flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    background: #000;
+    color: #fff;
+    height: 100vh;
+    width: 300px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo-hta{
+    font-size: 30px;
+    color: #ff0000;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+.icon, img {
+    margin-left: -2px;
+  }
+  .profile-sidebar {
+    margin: 10px;
+  }
+  .profile-sidebar img{
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+  }
+  .profile-sidebar h2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .profile-sidebar p{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 400px) {
+    .sidebar{
+        height: 140vh;
+    }
+  }
