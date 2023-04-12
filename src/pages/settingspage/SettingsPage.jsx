@@ -1,10 +1,15 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import Awan from '../../assets/image/Vector.png';
-import ImgProfile from '../../assets/image/foto firman di pik.jpg'
-const Analytics = () => {
+import ImgProfile from '../../assets/image/foto firman di pik.jpg';
+import SideBar from '../../components/sidebar/Sidebar';
+import Notif from '../../components/notif/Notif';
+
+const Settings = () => {
     return (
         <>
+        <SideBar>
+            <Notif />
             <div className="judul-settings">
                 <h1>Settings</h1>
             </div>
@@ -28,8 +33,9 @@ const Analytics = () => {
                     <button className='btn-settings'>Ganti</button>
                 </div>
             </form>
-          </>
+        </SideBar>
+        </>
     );
 };
 
-export default Analytics;
+export default Settings;

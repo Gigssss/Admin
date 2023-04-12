@@ -1,0 +1,42 @@
+.container-loginpage {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.img-login img {
+    margin: 100px;
+}
+
+/*untuk layar device berukuran kecil*/
+@media (max-width: 400px) {
+    .img-login {
+        display: none;
+    }
+    .container-loginpage {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .judul-login h1 {
+        margin-bottom: 10px;
+    }
+    .container-login {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .judul-login p {
+        font-size: 15px;
+    }
+    .input-login {
+        margin-top: 230px;
+    }
+    .judul-login {
+        margin-top: 150px;
+    }
+    .btn-login {
+        margin-top: 20px;
+    }
+}

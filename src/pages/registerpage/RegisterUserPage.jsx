@@ -1,8 +1,12 @@
 import React from 'react';
+import SideBar from '../../components/sidebar/Sidebar';
+import Notif from '../../components/notif/Notif';
 
 const RegisterUserPage = () => {
   return (
     <>
+    <SideBar>
+    <Notif />
       <form className='container-regis'>
         <div className='judul-regis'>
           <h1>Register</h1>
@@ -20,6 +24,7 @@ const RegisterUserPage = () => {
             <button className="btn-regis">Register</button>
         </div>
       </form>
+    </SideBar>
     </>
   );
 };

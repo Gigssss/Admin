@@ -1,0 +1,55 @@
+.container-login {
+    display: grid;
+    grid-template-columns: column;
+}
+
+.judul-login {
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: -230px;  
+}
+.judul-login h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 30px;
+}
+.judul-login p {
+    font-size: 20px;
+}
+
+.input-login {
+    width: 75%;
+    margin: 0 auto;
+    grid-template-columns: column; 
+}
+
+.btn-login {
+    width: 75%;
+    margin: 0 auto;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background: red;
+    border-radius: 10px;
+    border: none;
+    margin-top: -200px;
+}
+
+.kolom-email {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.kolom-pass-login {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}

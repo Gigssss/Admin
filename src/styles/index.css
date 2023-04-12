@@ -8,9 +8,11 @@
 @import '../components/notif/notif.css';
 @import '../components//table/table.css';
 @import '../components/chart/chart.css';
+@import '../components/Login/login-input.css';
 
 
 @import '../pages/dashboard/Dashboard.css';
 @import '../pages/work-orderpage/work-order.css';
 @import '../pages/registerpage/register-user.css';
 @import '../pages/settingspage/settings.css';
+@import '../pages/login-page/login-page.css';

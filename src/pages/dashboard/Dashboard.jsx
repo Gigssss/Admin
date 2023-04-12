@@ -4,10 +4,14 @@ import process from '../../assets/image/process.png';
 import close from '../../assets/image/close.png';
 import Table from '../../components/table/Table';
 import ChartBar from '../../components/chart/ChartBar';
+import SideBar from '../../components/sidebar/Sidebar';
+import Notif from '../../components/notif/Notif';
 
 const Dashboard = () => {
     return (
         <>
+        <SideBar>
+            <Notif />
             <div className='judul-dashboard'>
                 <h4>Dashboard</h4>
             </div>
@@ -42,6 +46,7 @@ const Dashboard = () => {
                     <ChartBar />
                 </div>
             </div>
+            </SideBar>
         </>
     );
 };
